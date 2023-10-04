@@ -10,7 +10,7 @@ export default function Home() {
             Scottish United Konkani Association - (SUKA)
           </H1>
           <H3 className="mt-2 mb-16 text-white">More details coming soon</H3>
-          <P className="mt-2 mb-16 text-white">
+          <P className="mt-2 mb-2 text-white">
             Connect with us on our{" "}
             <Link
               href="https://www.facebook.com/suka.scotland"
