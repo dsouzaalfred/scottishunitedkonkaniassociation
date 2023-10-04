@@ -1,11 +1,11 @@
-import { H1, H3 } from "./Typography";
-
 interface HeroImageProps {
   backgroundImage?: string;
   overlayColor?: string;
   children?: React.ReactNode;
 }
 
+// have to use inline style for backgroundImage & overlayColor since tailwind doesn't support dynamic values
+// https://stackoverflow.com/questions/70805041/background-image-in-tailwindcss-using-dynamic-url-react-js
 export const HeroImage = ({
   backgroundImage,
   overlayColor,
