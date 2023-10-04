@@ -25,7 +25,7 @@ export const HeroImage = ({
         className={`absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed`}
       >
         <div className="flex h-full items-center justify-center">
-          <div className="px-6 text-center text-white md:px-12">{children}</div>
+          <div className="px-6 text-center md:px-12">{children}</div>
         </div>
       </div>
     </div>
